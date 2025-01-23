@@ -1,7 +1,11 @@
+import Layout from "../../components/Layout";
+
 function SignIn() {
   return (
     <>
-      <div className="bg-orange-50">SignIn</div>
+        <Layout>
+            <h1 className="text-2xl font-bold">Sign In</h1>
+        </Layout>
     </>
   );
 }

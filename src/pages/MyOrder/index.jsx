@@ -1,7 +1,11 @@
+import Layout from "../../components/Layout";
+
 function MyOrder() {
   return (
     <>
-      <div className="bg-orange-50">MyOrder</div>
+      <Layout>
+        <h1 className="text-2xl font-bold">My Order</h1>
+      </Layout>
     </>
   );
 }

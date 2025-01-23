@@ -1,7 +1,10 @@
+import Layout from "../../components/Layout";
 function NotFound() {
   return (
     <>
-      <div className="bg-orange-50">NotFound</div>
+      <Layout>
+        <h1 className="text-2xl font-bold">404 - Not Found</h1>
+      </Layout>
     </>
   );
 }

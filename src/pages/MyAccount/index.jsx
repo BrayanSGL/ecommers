@@ -1,10 +1,13 @@
+import Layout from "../../components/Layout";
+
 function MyAccount() {
-    return (
-      <>
-        <div className="bg-orange-50">MyAccount</div>
-      </>
-    );
-  }
-  
-  export default MyAccount;
-  
+  return (
+    <>
+      <Layout>
+        <h1 className="text-2xl font-bold">My Account</h1>
+      </Layout>
+    </>
+  );
+}
+
+export default MyAccount;
